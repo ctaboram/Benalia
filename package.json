@@ -1,0 +1,22 @@
+{
+  "name": "landing-servicios-digitales",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "devDependencies": {
+    "astro": "^5.13.7"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.6.0",
+    "@astrojs/vercel": "^9.0.0",
+    "@vercel/postgres": "^0.10.0",
+    "dotenv": "^17.2.3",
+    "resend": "^6.1.2",
+    "zod": "^3.25.76"
+  }
+}
